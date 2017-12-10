@@ -14,6 +14,15 @@
 		AECC69A91FDDF0C5006BF4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECC69A81FDDF0C5006BF4BF /* Assets.xcassets */; };
 		AECC69AC1FDDF0C5006BF4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECC69AA1FDDF0C5006BF4BF /* LaunchScreen.storyboard */; };
 		AECC69B71FDDF0C5006BF4BF /* ContactManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC69B61FDDF0C5006BF4BF /* ContactManagerTests.m */; };
+		AECC69DE1FDDF258006BF4BF /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC69C31FDDF258006BF4BF /* Contact.m */; };
+		AECC69DF1FDDF258006BF4BF /* CNContactProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC69C81FDDF258006BF4BF /* CNContactProvider.m */; };
+		AECC69E01FDDF258006BF4BF /* CNContactAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC69CA1FDDF258006BF4BF /* CNContactAuthorization.m */; };
+		AECC69E11FDDF258006BF4BF /* ABContactProviderAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC69CD1FDDF258006BF4BF /* ABContactProviderAuthorization.m */; };
+		AECC69E21FDDF258006BF4BF /* ABContactProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC69D01FDDF258006BF4BF /* ABContactProvider.m */; };
+		AECC69E31FDDF258006BF4BF /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC69D31FDDF258006BF4BF /* ContactManager.m */; };
+		AECC69E41FDDF258006BF4BF /* ContactViewParam.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC69D81FDDF258006BF4BF /* ContactViewParam.m */; };
+		AECC69E51FDDF258006BF4BF /* ContactListViewParam.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC69DA1FDDF258006BF4BF /* ContactListViewParam.m */; };
+		AECC69E61FDDF258006BF4BF /* ContactManagerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC69DC1FDDF258006BF4BF /* ContactManagerFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,27 @@
 		AECC69B21FDDF0C5006BF4BF /* ContactManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECC69B61FDDF0C5006BF4BF /* ContactManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactManagerTests.m; sourceTree = "<group>"; };
 		AECC69B81FDDF0C5006BF4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECC69C31FDDF258006BF4BF /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		AECC69C41FDDF258006BF4BF /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		AECC69C71FDDF258006BF4BF /* CNContactAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNContactAuthorization.h; sourceTree = "<group>"; };
+		AECC69C81FDDF258006BF4BF /* CNContactProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNContactProvider.m; sourceTree = "<group>"; };
+		AECC69C91FDDF258006BF4BF /* CNContactProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNContactProvider.h; sourceTree = "<group>"; };
+		AECC69CA1FDDF258006BF4BF /* CNContactAuthorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNContactAuthorization.m; sourceTree = "<group>"; };
+		AECC69CB1FDDF258006BF4BF /* ContactProviderAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactProviderAuthorization.h; sourceTree = "<group>"; };
+		AECC69CD1FDDF258006BF4BF /* ABContactProviderAuthorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABContactProviderAuthorization.m; sourceTree = "<group>"; };
+		AECC69CE1FDDF258006BF4BF /* ABContactProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABContactProvider.h; sourceTree = "<group>"; };
+		AECC69CF1FDDF258006BF4BF /* ABContactProviderAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABContactProviderAuthorization.h; sourceTree = "<group>"; };
+		AECC69D01FDDF258006BF4BF /* ABContactProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABContactProvider.m; sourceTree = "<group>"; };
+		AECC69D11FDDF258006BF4BF /* ContactProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactProvider.h; sourceTree = "<group>"; };
+		AECC69D31FDDF258006BF4BF /* ContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactManager.m; sourceTree = "<group>"; };
+		AECC69D41FDDF258006BF4BF /* FetchContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchContact.h; sourceTree = "<group>"; };
+		AECC69D51FDDF258006BF4BF /* ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactManager.h; sourceTree = "<group>"; };
+		AECC69D71FDDF258006BF4BF /* ContactListViewParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListViewParam.h; sourceTree = "<group>"; };
+		AECC69D81FDDF258006BF4BF /* ContactViewParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewParam.m; sourceTree = "<group>"; };
+		AECC69D91FDDF258006BF4BF /* ContactViewParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewParam.h; sourceTree = "<group>"; };
+		AECC69DA1FDDF258006BF4BF /* ContactListViewParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListViewParam.m; sourceTree = "<group>"; };
+		AECC69DC1FDDF258006BF4BF /* ContactManagerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactManagerFactory.m; sourceTree = "<group>"; };
+		AECC69DD1FDDF258006BF4BF /* ContactManagerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactManagerFactory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +111,7 @@
 		AECC699B1FDDF0C5006BF4BF /* ContactManager */ = {
 			isa = PBXGroup;
 			children = (
+				AECC69C11FDDF258006BF4BF /* Classes */,
 				AECC699F1FDDF0C5006BF4BF /* AppDelegate.h */,
 				AECC69A01FDDF0C5006BF4BF /* AppDelegate.m */,
 				AECC69A21FDDF0C5006BF4BF /* ViewController.h */,
@@ -109,6 +140,90 @@
 				AECC69B81FDDF0C5006BF4BF /* Info.plist */,
 			);
 			path = ContactManagerTests;
+			sourceTree = "<group>";
+		};
+		AECC69C11FDDF258006BF4BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AECC69C21FDDF258006BF4BF /* Entity */,
+				AECC69C51FDDF258006BF4BF /* Adapter */,
+				AECC69D21FDDF258006BF4BF /* Manager */,
+				AECC69D61FDDF258006BF4BF /* ViewParam */,
+				AECC69DB1FDDF258006BF4BF /* Factory */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AECC69C21FDDF258006BF4BF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AECC69C31FDDF258006BF4BF /* Contact.m */,
+				AECC69C41FDDF258006BF4BF /* Contact.h */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AECC69C51FDDF258006BF4BF /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				AECC69C61FDDF258006BF4BF /* Contact */,
+				AECC69CB1FDDF258006BF4BF /* ContactProviderAuthorization.h */,
+				AECC69CC1FDDF258006BF4BF /* AddressBook */,
+				AECC69D11FDDF258006BF4BF /* ContactProvider.h */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		AECC69C61FDDF258006BF4BF /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				AECC69C71FDDF258006BF4BF /* CNContactAuthorization.h */,
+				AECC69C81FDDF258006BF4BF /* CNContactProvider.m */,
+				AECC69C91FDDF258006BF4BF /* CNContactProvider.h */,
+				AECC69CA1FDDF258006BF4BF /* CNContactAuthorization.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		AECC69CC1FDDF258006BF4BF /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				AECC69CD1FDDF258006BF4BF /* ABContactProviderAuthorization.m */,
+				AECC69CE1FDDF258006BF4BF /* ABContactProvider.h */,
+				AECC69CF1FDDF258006BF4BF /* ABContactProviderAuthorization.h */,
+				AECC69D01FDDF258006BF4BF /* ABContactProvider.m */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		AECC69D21FDDF258006BF4BF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AECC69D31FDDF258006BF4BF /* ContactManager.m */,
+				AECC69D41FDDF258006BF4BF /* FetchContact.h */,
+				AECC69D51FDDF258006BF4BF /* ContactManager.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		AECC69D61FDDF258006BF4BF /* ViewParam */ = {
+			isa = PBXGroup;
+			children = (
+				AECC69D71FDDF258006BF4BF /* ContactListViewParam.h */,
+				AECC69D81FDDF258006BF4BF /* ContactViewParam.m */,
+				AECC69D91FDDF258006BF4BF /* ContactViewParam.h */,
+				AECC69DA1FDDF258006BF4BF /* ContactListViewParam.m */,
+			);
+			path = ViewParam;
+			sourceTree = "<group>";
+		};
+		AECC69DB1FDDF258006BF4BF /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				AECC69DC1FDDF258006BF4BF /* ContactManagerFactory.m */,
+				AECC69DD1FDDF258006BF4BF /* ContactManagerFactory.h */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +326,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECC69E21FDDF258006BF4BF /* ABContactProvider.m in Sources */,
+				AECC69E41FDDF258006BF4BF /* ContactViewParam.m in Sources */,
+				AECC69DE1FDDF258006BF4BF /* Contact.m in Sources */,
+				AECC69E01FDDF258006BF4BF /* CNContactAuthorization.m in Sources */,
 				AECC69A41FDDF0C5006BF4BF /* ViewController.m in Sources */,
+				AECC69E31FDDF258006BF4BF /* ContactManager.m in Sources */,
 				AECC69A11FDDF0C5006BF4BF /* AppDelegate.m in Sources */,
+				AECC69E11FDDF258006BF4BF /* ABContactProviderAuthorization.m in Sources */,
+				AECC69E51FDDF258006BF4BF /* ContactListViewParam.m in Sources */,
+				AECC69E61FDDF258006BF4BF /* ContactManagerFactory.m in Sources */,
+				AECC69DF1FDDF258006BF4BF /* CNContactProvider.m in Sources */,
 				AECC699E1FDDF0C5006BF4BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +528,7 @@
 				AECC69BD1FDDF0C5006BF4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AECC69BE1FDDF0C5006BF4BF /* Build configuration list for PBXNativeTarget "ContactManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +537,7 @@
 				AECC69C01FDDF0C5006BF4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
