@@ -4,7 +4,7 @@ a wrapper to access local contact data using AddressBook.framework and Contact.f
 ## Use Cases
 
 - [x] Fetch contact data
-- [] Create contact data 
-- [] Update contact data 
-- [] Delete contact data 
+- [ ] Create contact data 
+- [ ] Update contact data 
+- [ ] Delete contact data 
 
